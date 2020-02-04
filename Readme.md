@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Konstantine Shaydorov](https://up.htmlacademy.ru/htmlcss/27/user/174381).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктор Гирда](https://htmlacademy.ru/profile/viktorgirda).
 
 ---
 
