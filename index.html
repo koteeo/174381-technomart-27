@@ -46,7 +46,7 @@
 			<h1>Техномарт</h1>
 			<section>
 				<h2 class="vissualy-hidden">Преимущества</h2>
-				<div class="services-wrapper">
+				<div class="services__wrapper">
 					<div>
 						<h3>Материалы</h3>
 						<a href="#">На любой вкус</a>
@@ -60,7 +60,7 @@
 						<a href="#">Для стройки</a>
 					</div>
 				</div>
-				<div class="services-wrapper">
+				<div class="services__wrapper">
 					<div>
 						<h3>Скидки 50%</h3>
 						<a href="#">На 350 товаров</a>
@@ -69,19 +69,29 @@
 						<h3>Доставка</h3>
 						<a href="#">Бесплатно</a>
 					</div>
-					<div class="slider1">
-						<span>Дрели</span>
-						<span>Соседям на радость!</span>
-						<button type="button">Назад</button>
-						<button type="button">Вперед</button>
-						<a href="catalog.html">Открыть каталог</a>
-					</div>
-					<div class="slider2">
-						<p>Перфораторы</p>
-						<p>Настоящие мужские игрушки</p>
-						<button type="button">Назад</button>
-						<button type="button">Вперед</button>
-						<a href="catalog.html">Открыть каталог</a>
+					<div class="slider">
+						<div class="slider__wrapper">
+							<div class="slider__item">
+								<span>Дрели</span>
+								<span>Соседям на радость!</span>
+							</div>
+							<div class="slider__item">
+								<span>Перфораторы</span>
+								<span>Настоящие мужские игрушки</span>
+							</div>
+							<div class="slider__controls">
+								<button class="slider__prev">Назад</button>
+								<ul class="slider__controls-wrapper">
+									<li class="slider__сontrols-item">1</li>
+									<li class="slider__controls-item">2</li>
+								</ul>
+								<button class="slider__next">Вперед</button>
+								<ul class="slider___controls-wrapper">
+									<li class="slider__controls-item">1</li>
+									<li class="slider__сontrols-item">2</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -202,9 +212,9 @@
 					Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
 				</p>
 				<ul>
-					<li><a href="#">Доставка</a></li>
-					<li><a href="#">Гарантия</a></li>
-					<li><a href="#">Кредит</a></li>
+					<li>Доставка</li>
+					<li>Гарантия</li>
+					<li>Кредит</li>
 				</ul>
 				<div class="services-item">
 					<h3>Доставка</h3>
