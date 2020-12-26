@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Техномарт</title>
-		<link rel="stylesheet" type="css/text" href="#">
+		<link rel="stylesheet" type="css/text" href="css/style.css">
 	</head>
 	<body>
 		<header>
@@ -11,7 +11,7 @@
 				<a href="index.html">Техномарт</a>
 				<form action="#" method="post"></form>
 					<label>
-						Поиск:
+						Поиск: 
 						<input type="search">
 					</label>
 				</form>
@@ -193,7 +193,7 @@
 				</div>
 				<div>
 					<a href="#">
-						<img src="img/png/lg.png" alt="LG" width=131" height="73">
+						<img src="img/png/lg.png" alt="LG" width="131" height="73">
 					</a>
 				</div>
 				<div>
@@ -285,7 +285,7 @@
 			<div>
 				<address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
 				<span>+7 (812) 555-05-55</span>
-				<ul>
+				<ul>t
 					<li><a href="#">Материалы</a></li>
 					<li><a href="#">Техника</a></li>
 					<li><a href="#">Инструмент</a></li>
@@ -307,16 +307,32 @@
 			</div>
 		</footer>
 		<section>
-			<h2>Форма обратной связи</h2>
-			<!-- Форма обратной связи-->
+			<h2 class="visually-hidden">Форма обратной связи</h2>
+				<form class="popup-form feedback-form" action="https://echo.technomarts.ru" method="post">
+				<p class="half-width-wrap">
+					<label for="feedback-name">Ваше имя:</label>
+					<input class="feedback-user-name" id="feedback-name" type="text" name="user-name" placeholder="Имя Фамилия"> 
+				</p>
+				<p class="half-width-wrap">
+					<label for="feedback-email">Ваш e-mail:</label>
+					<input class="feedback-user-email" id="feedback-email" "type="email" name="user-email" placeholder="email@yandex.ru">  
+				</p>
+				<p class="feedback-textarea-wrap">
+					<label for="feedback-letter">Текст Письма</label>
+					<input class="feedback-user-comment" id="feedback-letter" type="textarea" name="comment" placeholder="В свободной форме">
+				</p>
+				</form>
 			<button type="button">Закрыть</button>
 		</section>
-		<section>
-			<h2>Как до нас добраться?</h2>
-			<!--Форма обратной связи-->
+		<section class="modal modal-map">
+			<h2 class="visually-hidden">Как до нас добраться?</h2>
+			<a href="#">
+				<img src="img/png/map_popup.png" class="map_img" width="940" height="446" alt="Офис компании находится по адресу Большая Конюшенная ул 19">
+			</a>
 			<button type="button">Закрыть</button>
 		</section>
 	</body>
 </html>
 
 <!--Коммент для того чтобы сделать pullrequest-->
+

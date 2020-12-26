@@ -33,8 +33,8 @@
 					<a href="#">Личный кабинет</a>
 				</div>
 			</div>
-		<nav>
-			<ul>
+		<nav class="main-nav">
+			<ul class="nav-list">
 				<li><a href="index.html">Главная</a></li>
 				<li><a href="#">Компания</a></li>
 				<li><a href="catalog.html">Каталог</a></li>
@@ -46,25 +46,80 @@
 		</nav>
 		</header>
 		<main>
-			<h1>Каталог "Техномарт"</h1>
+			<h1 class="visually-hidden">Каталог "Техномарт"</h1>
 			<ul>
 				<li><a href="catalog.html">Каталог</a></li>
 				<li><a href="#">Инструменты</a></li>
 				<li>Перфораторы</li>
 			</ul>
-			<section>
-				<h2>Фильтр товаров</h2>
-				<span>Фильтр:</span>
+			<section class="catalog-filter">
+				<h2 class="visually-hidden">Фильтр товаров</h2>
+				<div class="filter-wrap-30">
+					<span>Фильтр:</span>
+					<form class="form-filter" action="echo.barbershops.ru" method="post" oninput="x.value=range.value">
+						<fieldset class="user-filter-price">
+							<legend class="visually-hidden">Фильтр цены</legend>
+							<label for="price-filter">Цена:</label>
+							<input class="" id="price-filter" type="range" name="range" min="0" max="30000" step="1" value="3000">
+								<!--Корявая реализация ползунка для отображения-->
+								<p class="range-wrap-half">
+									<span class="visually-hidden">Минимальная</span>
+									<span>0</span>
+								</p>
+								<p class="range-wrap-half">
+									<span class="visually-hidden">Максимальная</span>
+									<output name="x">3000</output>
+								</p>
+						</fieldset>
+						<fieldset>
+							<legend class="filter-manufacturer">Производители:</legend>
+							<ul class="filter-manufacturer-list">
+								<li class="filter-manufacturer-item">
+									<input class="manufacturer-bosch" id="checkbox-bosch" type="checkbox" name="bosch" checked>
+									<label for="checkbox-bosch">Bosch</label>
+								</li>
+								<li class="filter-manufacturer-item">
+									<input class="manufacturer-interscol" id="checkbox-interscol" type="checkbox" name="interscol">
+									<label for="checkbox-interscol">Интерскол</label>
+								</li>
+								<li class="filter-manufacturer-item">
+									<input class="manufacturer-makita" id="checkbox-makita" type="checkbox" name="makita" checked>
+									<label for="checkbox-makita">Makita</label>
+								</li>
+								<li class="filter-manufacturer-item">
+									<input class="manufacturer-Dewalt" id="checkbox-Dewalt" type="checkbox" name="Dewalt">
+									<label for="checkbox-Dewalt">Dewalt</label>
+								</li>
+								<li class="filter-manufacturer-item">
+									<input class="manufacturer-Hitachi" id="checkbox-Hitachi" type="checkbox" name="Hitachi" checked>
+									<label for="checkbox-Hitachi">Hitachi</label>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset>
+							<legend>Питание:</legend>
+							<ul class="power-radio-list">
+								<li class="power-radio-item">
+									<input id="battery-power" type="radio" name="filter-power-option" value="battery" checked>
+									<label for="battery-power">Аккумуляторные</label>
+								</li>
+								<li class="power-radio-item">
+									<input id="electrical-power" type="radio" name="filter-power-option" value="electrical-power">
+									<label for="electrical-power">Сетевые</label>
+								</li>
+							</ul>
+						</fieldset>
+						<button type="submit" class="button filter-button">Показать</button>
+					</form>
+				</div>
 				<div>
 					<span>Сортировка:</span>
 						<button type="button">По цене</button>
 						<button type="button">По типу</button>
 						<button type="button">По функционалу</button>
-					</ul>
 					<button type="button">По возврастанию</button>
 					<button type="button">По убыванию</button>
 				</div>
-				<!--Здесь будет фильтр товаров-->
 			</section>
 			<section>
 				<h2>Перфораторы</h2>
