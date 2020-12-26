@@ -60,5 +60,30 @@ a {
 	/*Анимация*/
 }
 
+.logo {
+	/*Позиционирование*/
+	vertical-align: baseline;
+	/*Блочная модель*/
+	display: inline-block;
+	/*Типографика*/
+	line-height: 48px;
+	/*Оформление*/
+	
+	/*Анимация*/
+}
 
+.place-order {
+	/*Позиционирование*/
+	display: inline-block;
+	/*Блочная модель*/
+	width: 150px;
+	height: 42px;
+	/*Типографика*/
+	line-height: 47px;
+	vertical-align: baseline;
+	text-align: center;
+	/*Оформление*/
+	background-color: #63a63e;
+	/*Анимация*/
+}
 																	/*HEADER END*/
