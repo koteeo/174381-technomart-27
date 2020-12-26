@@ -1,0 +1,64 @@
+																	/*GENERAL STYLE*/
+
+body {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-size: 13px;
+	font-family: "PT Sans", "Georgia", sans-serif;
+	color: #000000;
+	line-height: 24px;
+	font-weight: 400;
+	/*ОФормление*/
+	background-color: #ffffff;
+	/*Анимация*/
+}
+
+a {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	text-decoration: none;
+	color: #ffffff;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+																	/*GENERAL STYLE END*/
+
+																	/*HEADER*/
+
+.top-header {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-family: "Cuprum", "Georgia", sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 18px;
+	/*Оформление*/
+	background-color: #293449;
+	/*Анимация*/
+}		
+
+.top-header label {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #ffffff;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+
+																	/*HEADER END*/
