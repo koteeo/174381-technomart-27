@@ -23,7 +23,6 @@ a {
 
 	/*Типографика*/
 	text-decoration: none;
-	color: #ffffff;
 	/*Оформление*/
 
 	/*Анимация*/
@@ -32,6 +31,8 @@ a {
 																	/*GENERAL STYLE END*/
 
 																	/*HEADER*/
+
+																	/*TOP-HEADER*/
 
 .top-header {
 	/*Позиционирование*/
@@ -47,6 +48,17 @@ a {
 	background-color: #293449;
 	/*Анимация*/
 }		
+.top-header a {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #ffffff;
+	/*Оформление*/
+	
+	/*Анимация*/
+}
 
 .top-header label {
 	/*Позиционирование*/
@@ -63,27 +75,204 @@ a {
 .logo {
 	/*Позиционирование*/
 	vertical-align: baseline;
+	text-align: center;
 	/*Блочная модель*/
-	display: inline-block;
+	display: inline-block; 
+	width: 220px;
+	height: 47px;
 	/*Типографика*/
 	line-height: 48px;
 	/*Оформление*/
+	background-color: #ee3643;
+	box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+	/*Анимация*/
+}
+
+.logo:hover,
+.logo:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #ca2c37; 
+	/*Анимация*/
+}
+
+.bookmark,
+.shopping-cart {
+	/*Позиционирование*/
+	vertical-align: baseline;
+	margin-left: -4px;
+	/*Блочная модель*/
+	width: 150px; 
+	height: 42px;
+	display: inline-block;
+	/*Типографика*/
+	line-height: 42px;
+	text-align: center;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.search {
+	/*Позиционирование*/
+	vertical-align: baseline;
+	/*Блочная модель*/
+	display: inline-block;
+	width: 270px;
+	height: 42px;
+	/*Типографика*/
+
+	/*Оформление*/
+	line-height: 42px;
+	text-aling: center;
+	/*Анимация*/
+}
+
+.search:hover,
+.search:focus,
+.bookmark:hover,
+.bookmark:focus,
+.shopping-cart:hover,
+.shopping-cart:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	outline: none;
+	/*Оформление*/
+	background-color: #212a3a;
+	/*Анимация*/
+}	
+
+
+
+.search:active,
+.search:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
 	
+	/*Оформление*/
+ 	background-color: #293449;
+	/*Анимация*/
+}
+.search input:active,
+.search input:focus {
+	outline: none;
+}
+
+.bookmark:active,
+.shopping-cart:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #ffffff;
+	opacity: 0.6;
+	/*Оформление*/
+	background-color: #161d29;
 	/*Анимация*/
 }
 
 .place-order {
 	/*Позиционирование*/
 	display: inline-block;
+	margin-left: -4px;
 	/*Блочная модель*/
 	width: 150px;
 	height: 42px;
-	/*Типографика*/
-	line-height: 47px;
+	/*Типографика*/ 
+	line-height: 42px;
 	vertical-align: baseline;
 	text-align: center;
 	/*Оформление*/
 	background-color: #63a63e;
 	/*Анимация*/
 }
+
+.place-order:hover,
+.place-order:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	outline: none;
+	/*Оформление*/
+	background-color: #5fbb2d;
+	/*Анимация*/
+}
+.place-order:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	opacity: 0.5;
+	/*Оформление*/
+	background-color: #518534;
+	/*Анимация*/
+}
+
+																	/*TOP-HEADER-END*/
+	
+																	/*MIDDLE-HEADER*/
+
+.middle-header {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-family: "Cuprum", "Georgia", sans-serif;
+	/*Оформление*/
+	background-color: #f4f7f9;
+
+	/*Анимация*/
+}
+
+.middle-info {
+	/*Позиционирование*/
+	display: inline-block;
+	/*Блочная модель*/
+	width: 190px;
+	height: 60px;
+	/*Типографика*/
+	color: #ee3643;
+	font-size: 16px;
+	line-height: 23px;
+	font-style: italic;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.phone {
+	/*Позиционирование*/
+	vertical-align: middle;
+	/*Блочная модель*/
+	width: 270px;
+	height: 45px;
+	display: inline-block;
+	/*Типографика*/
+	font-size: 21px;
+	line-height: 45px;
+	font-weight: 400;
+	color: #ee3643;
+	text-align: center;
+
+	/*Оформление*/
+	border: 3px solid #ffffff; 
+	/*Анимация*/
+}
+																	/*MIDDLE-HEADER-END*/
+
 																	/*HEADER END*/
