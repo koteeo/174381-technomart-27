@@ -273,6 +273,148 @@ a {
 	border: 3px solid #ffffff; 
 	/*Анимация*/
 }
+
+.address-info {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-style: 14px;
+	text-align: center;
+	font-style: normal;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.phone-wrap,
+.button-wrap {
+	/*Позиционирование*/
+	/*Блочная модель*/
+	display: inline-block;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+
+
+.button {
+	/*Позиционирование*/
+	display: inline-block;
+	vertical-align: middle;
+	/*Блочная модель*/
+	height: 45px;
+	border: none;
+	/*Типографика*/
+	line-height: 45px;
+	font-size: 21px;
+	font-family: "Cuprum", "Georgia", sans-serif;
+	color: #000000;
+	text-align: center;
+	/*Оформление*/
+	background-color: #ffffff;
+	/*Анимация*/
+}
+.button:focus,
+.button:hover {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #ee3643;
+	/*Оформление*/
+	outline: none;
+	/*Анимация*/
+} 
+
+.button:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #000000;
+	opacity: 0.3;
+	/*Оформление*/
+	outline: none;
+	/*Анимация*/
+}
+
+.button-enter {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	width: 121px;
+	height: 45px;
+	/*Типографика*/
+	
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.button-reg {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	width: 150px;
+	height: 45px;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
 																	/*MIDDLE-HEADER-END*/
+																	
+																	/*HEADER-NAV*/
+
+.nav-list {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	margin: 0px;
+	padding: 0px;
+	/*Типографика*/
+	/*Оформление*/
+	list-style: none;
+	/*Анимация*/
+}
+
+.nav-list li {
+	/*Позиционирование*/
+	
+	/*Блочная модель*/
+	padding-right: 2%;
+	padding-left: 2%;
+	margin-left: -4px;
+	display: inline-block;
+	/*Типографика*/
+	/*Оформление*/
+	background-color: #32425c;
+	/*Анимация*/
+}
+.nav-list a {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	/*Типографика*/
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 60px;
+	font-family: "Cuprum", "Georgia", sans-serif;
+	color: #ffffff;
+	/*Оформление*/
+	
+	/*Анимация*/
+}
+
+																	/*HEADER-NAV-END*/
 
 																	/*HEADER END*/
