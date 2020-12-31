@@ -370,9 +370,9 @@ a {
 	/*Анимация*/
 }
 
-																	/*MIDDLE-HEADER-END*/
+											/*MIDDLE-HEADER-END*/
 																	
-																	/*HEADER-NAV*/
+											/*HEADER-NAV*/
 
 .nav-list {
 	/*Позиционирование*/
@@ -442,11 +442,15 @@ a {
 	/*Анимация*/
 }
 
-																	/*HEADER-NAV-END*/
+										/*HEADER-NAV-END*/
 
-																	/*HEADER END*/
+										/*HEADER END*/
 
-																	/*FOOTER*/
+				/*FOOTER*/
+
+						/*FOOTER-HEADER*/
+
+
 .main-footer {
 	/*Позиционирование*/
 
@@ -454,15 +458,194 @@ a {
 
 	/*Типографика*/
 	color: #ffffff;
+	font-family: "Cuprum", "Georgia", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
 	/*Оформление*/
 	background-color: #32425c;
 	/*Анимация*/
 }
 
+.footer-nav-list {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	padding: 0px;
+	margin: 0px;
+	/*Типографика*/
+	list-style: none;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.footer-nav-list li {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	display: inline-block;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.footer-nav-list a {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	padding-left: 10px;
+	margin-right: 10px;
+	/*Типографика*/
+	font-size: 18px;
+	line-height: 64px;
+	font-weight: 400;
+	color: #ffffff;
+	list-style: none;
+	font-family: "Cuprum", "Georgia", sans-serif;
+	/*Оформление*/
 
 
+	/*Анимация*/
+}
 
-																	/*FOOTER-END*/
+.footer-nav-list a:hover,
+.footer-nav-list a:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	text-decoration: underline;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.footer-nav-list a:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	opacity: 0.5;
+	color: #f1f5f7;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+							/*FOOTER-HEADER-END*/
+
+							/*FOOTER-MIDDLE-INFO*/
+
+.footer-middle-info {
+
+	/*Позиционирование*/
+	display: border-box;
+	/*Блочная модель*/
+	margin-bottom: 32px;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.middle-info-contact {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	/*Типографика*/
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.middle-info-list {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	/*Типографика*/
+
+	/*Оформление*/
+	list-style: none;
+
+	/*Анимация*/
+}
+
+.middle-info-list li {
+	/*Позиционирование*/
+	padding-left: 20px;
+	padding-right: 20px;
+	/*Блочная модель*/
+	display: inline-block;
+	/*Типографика*/
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.middle-info-list a {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	/*Типографика*/
+	color: #ffd180;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.middle-info-list a:focus,
+.middle-info-list a:hover {
+
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	text-decoration: underline;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.middle-info-list a:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	opacity: 0.5;
+	/*Оформление*/
+
+	/*Анимация*/
+
+}
+							/*FOOTER-MIDDLE-INFO-END*/
+
+							/*FOOTER-BOTTOM*/
+.footer-botoom {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #293449;
+	/*Анимация*/
+}
+
+
+							/*FOOTER-BOTTOM-END*/
+
+					/*FOOTER-END*/
 
 
 
