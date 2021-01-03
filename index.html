@@ -13,6 +13,7 @@
 					<!-- FONTS-CUPRUM-END-->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/index.css">
 	</head>
 	<body>
 		<header class="main-header">
@@ -44,8 +45,8 @@
 					<address class="address-info">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
 				</div>
 				<div class="button-wrap">
-				<button class="button button-enter" type="button">Войти</button>
-				<a class="button button-reg" href="#">Регистрация</a>
+				<button class="button-reg" type="button">Войти</button>
+				<a class="button-reg" href="#">Регистрация</a>
 			</div>  
 			<nav class="main-nav">
 				<ul class="nav-list">
@@ -61,42 +62,42 @@
 		</header>
 		<main>
 			<h1 class="visually-hidden">Техномарт</h1>
-			<section>
-				<h2 class="vissualy-hidden">Преимущества</h2>
+			<section class="services">
+				<h2 class="visually-hidden">Преимущества</h2>
 				<div class="services__wrapper">
-					<div>
+					<div class="services-box material">
 						<h3>Материалы</h3>
-						<a href="#">На любой вкус</a>
+							<a class="services-button" href="#">На любой вкус</a>
 					</div>
-					<div>
+					<div class="services-box tools">
 						<h3>Инструмент</h3>
-						<a href="#">На все случаи</a>
+						<a class="services-button" href="#">На все случаи</a>
 					</div>
-					<div>
+					<div class="services-box technics">
 						<h3>Техника</h3>
-						<a href="#">Для стройки</a>
+						<a class="services-button" href="#">Для стройки</a>
 					</div>
 				</div>
 				<div class="services__wrapper">
-					<div>
+					<div class="services-box discounts">
 						<h3>Скидки 50%</h3>
-						<a href="#">На 350 товаров</a>
+						<a class="services-button" href="#">На 350 товаров</a>
 					</div>
-					<div>
+					<div class="services-box delivery">
 						<h3>Доставка</h3>
-						<a href="#">Бесплатно</a>
+						<a class="services-button" href="#">Бесплатно</a>
 					</div>
 					<div class="slider">
 						<div class="slider__wrapper">
 							<div class="slider__item">
 								<img src="img/jpg/slider1.jpg" width="620" height="226"> 
-								<span>Дрели</span>
-								<span>Соседям на радость!</span>
+								<span class="title-slider">Дрели</span>
+								<span class="slider-description">Соседям на радость!</span>
 							</div>
 							<div class="slider__item">
 							<img src="img/jpg/slider2.jpg" width="620" height="226">
-								<span>Перфораторы</span>
-								<span>Настоящие мужские игрушки</span>
+								<span class="title-slider">Перфораторы</span>
+								<span class="slider-description">Настоящие мужские игрушки</span>
 							</div>
 							<div class="slider__controls">
 								<button class="slider__prev">Назад</button>
@@ -109,17 +110,18 @@
 									<li class="slider__controls-item">1</li>
 									<li class="slider__сontrols-item">2</li>
 								</ul>
+								<a class="button" href="catalog.html">Открыть каталог</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section>
-				<div>
+			<section class="popular-products">
+				<div class="popular-products-title">
 					<h2>Популярные товары:</h2>
-					<a href="catalog.html">Все популярные товары</a>
+					<a class="button" href="catalog.html">Все популярные товары</a>
 				</div>
-				<div>
+				<div class="products-item">
 					<h3>
 						<a href="catalog.html">
 							<span>Перфоратор BOSCH</span>
@@ -134,7 +136,7 @@
 						<span>32500 Р.</span>
 						<span>25500 Р.</span>
 				</div>
-				<div>
+				<div class="products-item">
 					<h3>
 						<a href="catalog.html">
 							<span>Перфоратор BOSCH</span>
@@ -149,7 +151,7 @@
 						<span>22500 Р.</span>
 						<span>15500 Р.</span>
 				</div>
-				<div>
+				<div class="products-item">
 					<h3>
 						<a href="catalog.html">
 							<span>Перфоратор BOSCH</span>
@@ -164,7 +166,7 @@
 						<span>30500 Р.</span>
 						<span>25500 Р.</span>
 				</div>
-				<div>
+				<div class="products-item">
 					<h3>
 						<a href="catalog.html">
 							<span>Перфоратор BOSCH</span>

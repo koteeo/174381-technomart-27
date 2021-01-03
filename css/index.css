@@ -1,0 +1,273 @@
+														
+
+														/*SECTION-SERVICES*/
+
+.services-box {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	width: 300px;
+	height: 123px;
+	/*Типографика*/
+	font-family: "Cuprum", "Georgia", sans-serif;
+
+	/*Оформления*/
+	color: #ffffff;
+	/*Анимация*/
+}
+
+.services-box h3 {
+	/*Позиционирование*/
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0px;
+	/*Блочная модель*/
+}
+
+
+.material {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #ffbf47;
+	/*Анимация*/
+}
+
+.tools {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #3bbce3;
+	/*Анимация*/
+}
+
+.technics {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #dc91d8;
+
+	/*Анимация*/
+}
+
+.discounts {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #8ed78f;
+	/*Анимация*/
+}
+
+.delivery {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #ffc047;
+	/*Анимация*/
+}
+
+.services-button {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	width: 135px;
+	height: 38px;
+	display: inline-block;
+	/*Типографика*/
+	font-family: "Cuprum", "Georgia", sans-serif;
+	font-size: 14px;
+	line-height: 38px;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	/*Оформление*/
+	background-color: rgba(0, 0, 0, 0.1);
+	/*Анимация*/
+}
+.services-button:focus,
+.services-button:hover {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: rgba(0, 0, 0, 0.2);
+	/*Анимация*/
+}
+
+.services-button:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: rgba(0, 0, 0, 0.3);
+	/*Анимация*/
+}
+
+.title-slider { 
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	/*Типографика*/
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Cuprum", "Georgia", sans-serif;
+  color: #000000;
+	/*Оформление*/
+
+	/*Анимация*/
+ }
+ .slider-description {
+ 	/*Позиционирование*/
+
+ 	/*Блочная модель*/
+ 	display: inline-block;
+ 	/*Типографика*/
+ 	font-size: 18px;	
+ 	color: #000000;
+ 	font-family: "Cuprum", "Georgia", sans-serif;
+ 	/*Оформление*/
+
+ 	/*Анимация*/
+ }
+
+.button {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 5%;
+	padding-right: 5%;
+	/*Типографика*/
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "Cuprum", "Georgia", sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	/*Оформление*/
+	color: #ffffff;
+	vertical-align: middle;
+	background-color: #ee3643;	
+	/*Анимация*/
+}
+
+.button:hover, 
+.button:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #ca2c37;
+	/*Анимация*/
+}
+
+.button:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #ba2732;
+	/*Анимация*/
+}
+														/*SECTION-SERVICES-END*/
+
+														/*SECTION-POPULAR-PRODUCTS*/
+.popular-products-title {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	padding-top: 33px;
+	padding-bottom: 33px;
+	padding-left: 30px;
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #f9f5f0;
+	/*Анимация*/
+}
+
+.popular-products {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	/*Типографика*/
+	font-family: "PT Sans", "Georgia", sans-serif;
+	font-size: 17px;
+	font-weight: 700px;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.popular-products h2 {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	margin: 0px;
+	/*Типографика*/
+	font-family: "Cuprum", "Georgia", sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	color: #32435c;
+	vertical-align: middle;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.products-item {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	width: 220px;
+	height: 318px;
+	/*Типографика*/
+
+	/*Оформление*/
+	border: 1px solid #eaeaea;
+	/*Анимация*/
+}
+
+
+														/*SECTION-POPULAR-PRODUCTS-END*/

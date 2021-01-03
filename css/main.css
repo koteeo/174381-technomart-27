@@ -7,7 +7,7 @@ body {
 
 	/*Типографика*/
 	font-size: 13px;
-	font-family: "PT Sans", "Georgia", sans-serif;
+	font-family: "Сuprum", "Georgia", sans-serif;
 	color: #000000;
 	line-height: 24px;
 	font-weight: 400;
@@ -301,7 +301,7 @@ a {
 
 
 
-.button {
+.button-reg {
 	/*Позиционирование*/
 	display: inline-block;
 	vertical-align: middle;
@@ -318,8 +318,8 @@ a {
 	background-color: #ffffff;
 	/*Анимация*/
 }
-.button:focus,
-.button:hover {
+.button-reg:focus,
+.button-reg:hover {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
@@ -331,7 +331,7 @@ a {
 	/*Анимация*/
 } 
 
-.button:active {
+.button-reg:active {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
@@ -341,32 +341,6 @@ a {
 	opacity: 0.3;
 	/*Оформление*/
 	outline: none;
-	/*Анимация*/
-}
-
-.button-enter {
-	/*Позиционирование*/
-
-	/*Блочная модель*/
-	width: 121px;
-	height: 45px;
-	/*Типографика*/
-	
-	/*Оформление*/
-
-	/*Анимация*/
-}
-
-.button-reg {
-	/*Позиционирование*/
-
-	/*Блочная модель*/
-	width: 150px;
-	height: 45px;
-	/*Типографика*/
-
-	/*Оформление*/
-
 	/*Анимация*/
 }
 
@@ -442,13 +416,15 @@ a {
 	/*Анимация*/
 }
 
-										/*HEADER-NAV-END*/
+														/*HEADER-NAV-END*/
 
-										/*HEADER END*/
+														/*HEADER END*/
 
-				/*FOOTER*/
 
-						/*FOOTER-HEADER*/
+
+														/*FOOTER*/
+
+																/*FOOTER-HEADER*/
 
 
 .main-footer {
@@ -630,7 +606,7 @@ a {
 							/*FOOTER-MIDDLE-INFO-END*/
 
 							/*FOOTER-BOTTOM*/
-.footer-botoom {
+.footer-bottom {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
@@ -651,6 +627,15 @@ a {
 
 																	/*PATTERN*/
 
-
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
 
 																	/*PATTERN-END*/
