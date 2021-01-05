@@ -453,8 +453,6 @@
 	width: 240px;
 	height: 61px;
 	padding-left: 22px;
-	padding-top: 21px;
-	padding-bottom: 21px;
 	/*Типографика*/
 	color: #ffffff;
 	font-family: "Cuprum", "Georgia", sans-serif;
@@ -462,9 +460,146 @@
 	line-height: 61px;
 	/*Оформление*/
 	background-color: #32425c;
-	border-bottom: 1px solid #32425c;
 	/*Анимация*/
 }
 
+.services-list li:hover,
+.services-list li:focus {
+	/*Позиционирование*/
 
-														/*SECTION-SERVICES-END*/
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #000000;
+	/*Оформление*/
+	background-color: #ffffff;
+	/*Анимация*/
+}
+
+.services-item {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-size: 13px;
+	font-family: "PT Sans", "Georgia", sans-serif;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.services-item h3 {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-family: "Cuprum", "Georgia", sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #32425c;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.services-item p {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	width: 275px;
+	height: auto;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+																	/*SECTION-SERVICES-END*/
+				
+																	/*SECTION-DETAIL-INFO*/
+.detail-info, 
+.contact-info {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	padding-top: 83px;
+	width: 519px;
+	padding-bottom: 83px;
+	/*Типографика*/
+	font-family: "PT Sans", "Georgia", sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	color: #000000;
+	/*Оформление*/
+	background-color: #ffffff;
+	/*Анимация*/
+}
+
+.detail-info h2,
+.contact-info h2 {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	margin: 0px;
+	padding: 0px;
+	/*Типографика*/
+	color: #000000;
+	font-family: "Cuprum", "Georgia", sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.detail-info-list {
+	/*Позиционирование*/
+	
+	/*Блочная модель*/
+	padding: 0px;
+	/*Типографика*/
+	list-style: none;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.detail-info-list li {
+	/*Позицинирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-size: 18px;
+	font-weight: 400;
+	font-family: "Cuprum", "Georgia", sans-serif;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.contact-info {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.full-button {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	width: 300px;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+																	/*SECTION-DETAIL-INFO-END*/
