@@ -209,7 +209,8 @@
 														/*SECTION-SERVICES-END*/
 
 														/*SECTION-POPULAR-PRODUCTS*/
-.popular-products-title {
+.popular-products-title,
+.popular-manufactures-title {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
@@ -263,11 +264,82 @@
 	width: 220px;
 	height: 318px;
 	/*Типографика*/
-
+	font-family: "PT Sans", "Georgia", sans-serif;
+	font-weight: 700;
 	/*Оформление*/
 	border: 1px solid #eaeaea;
 	/*Анимация*/
 }
 
+.products-item:focus,
+.products-item:hover {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	
+	/*Типографика*/
+	
+	/*Оформление*/
+	box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
+	/*Анимация*/
+}
+
+.product-title {
+	/*Позиционирование*/
+	
+	/*Блочная модель*/
+	margin: 0px auto;
+	display: inline-block;
+	width: 155px;
+	height: 33px;
+	/*Типографика*/
+	color: #000000;
+	font-size: 18px;
+	font-family: "PT Sans", "Georgia", sans-serif;
+	font-weight: 700;
+	text-align:center;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.disable-price {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-size: 17px;
+	color: #a9a9a9;
+	text-decoration: line-through;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.discount-price {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	width: 141px;
+	height: 38px;
+	/*Типографика*/
+	font-size: 17px; 
+	line-height: 38px;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	/*Оформление*/
+	background-color: #ee3643;
+	/*Анимация*/
+}
+
 
 														/*SECTION-POPULAR-PRODUCTS-END*/
+
+
+														/*SECTION-POPULAR-MANUFACTURES*/
+
+
+
+														/*SECTION-POPULAR-MANUFACTURES-END*/
