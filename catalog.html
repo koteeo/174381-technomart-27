@@ -3,34 +3,52 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Каталог "Техномарт"</title>
-		<link rel="stylesheet" type="css/text" href="#">
+						<!-- FONTS-PT_SANS -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+					<!-- FONTS-PT_SANS-END -->
+					<!-- FONTS-CUPRUM -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&display=swap" rel="stylesheet">
+					<!-- FONTS-CUPRUM-END-->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/catalog.css">
 	</head>
 	<body>
 		<header>
-			<div>
-				<a href="index.html">Техномарт</a>
+			<div class="top-header">
+				<a class="logo" href="index.html">
+					<img src="img/header/logo.svg" alt="Логотип Техномарт" width="109"height="19">
+					</img>
+				</a>
+				<div class="search">
 				<form action="#" method="post"></form>
-					<label>
-						Поиск:
-						<input type="search">
-					</label>
-				</form>
-				<a href="#">Закладки: 0</a>
-				<a href="#">Корзина: 10</a>
-				<a href="#">Оформить заказ</a>
+						<label for="find">
+							Поиск: 
+							<input id="find" type="search">
+						</label>
+					</form>
+				</div>
+				<a class="bookmark" href="#">Закладки: 0</a>
+				<a class="shopping-cart" href="#">Корзина: 10</a>
+				<a class="place-order" href="#">Оформить заказ</a>
 			</div>
-			<div> 
-				<p>
+			<div class="middle-header"> 
+				<p class="middle-info">
 					Интернет-магазин
 					строительных материалов
 					и инструментов для ремонта
 				</p>
-				<a href="#">+7 (812) 555-05-55</a>
-				<address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-				<div>
-					<p>Равшан Джамшутович</p>
-					<a href="#">Мои заказы</a>
-					<a href="#">Личный кабинет</a>
+				<div class="phone-wrap">
+					<a class="phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
+					<address class="address-info">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+				</div>
+				<div class="user-cab">
+					<p class="user-cab-name">Равшан Джамшутович</p>
+					<a class="user-cab-link" href="#">Мои заказы</a>
+					&#x25CF;
+					<a class="user-cab-link" href="#">Личный кабинет</a>
 				</div>
 			</div>
 		<nav class="main-nav">
@@ -47,7 +65,7 @@
 		</header>
 		<main>
 			<h1 class="visually-hidden">Каталог "Техномарт"</h1>
-			<ul>
+			<ul class="breadcrumbs-list">
 				<li><a href="catalog.html">Каталог</a></li>
 				<li><a href="#">Инструменты</a></li>
 				<li>Перфораторы</li>

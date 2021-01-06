@@ -1,0 +1,44 @@
+													/*GENERAL*/
+body {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-family: "PT Sans", "Georgia", sans-serif;
+	font-size: 13px;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+													/*GENERAL-END*/
+
+
+
+
+
+.breadcrumbs-list {
+	/*Позициоинирование*/
+
+	/*Блочная модель*/
+	margin: 0px;
+	padding: 0px;
+	/*Типографика*/
+	list-style: none;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.breadcrumbs-list li {
+	/*Позициоинрование*/
+
+	/*Блочная модель*/
+	padding-right: 15px;
+	padding-left: 15px;
+	display: inline-block;
+	/*Типографика*/
+	text-transform: uppercase;
+	/*Оформление*/
+
+	/*Анимация*/
+}
