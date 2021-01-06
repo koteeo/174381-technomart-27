@@ -480,7 +480,6 @@
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-
 	/*Типографика*/
 	font-size: 13px;
 	font-family: "PT Sans", "Georgia", sans-serif;
@@ -519,15 +518,25 @@
 																	/*SECTION-SERVICES-END*/
 				
 																	/*SECTION-DETAIL-INFO*/
+.detail-info {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	padding-top: 83px;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
 .detail-info, 
 .contact-info {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
 	display: inline-block;
-	padding-top: 83px;
-	width: 519px;
-	padding-bottom: 83px;
+	width: auto;
 	/*Типографика*/
 	font-family: "PT Sans", "Georgia", sans-serif;
 	font-size: 13px;
@@ -583,7 +592,7 @@
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-	display: inline-block;
+	padding-bottom: 83px;
 	/*Типографика*/
 
 	/*Оформление*/

@@ -446,6 +446,7 @@ a {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
+	display: inline-block;
 	padding: 0px;
 	margin: 0px;
 	/*Типографика*/
@@ -459,7 +460,8 @@ a {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-
+	margin: 0px;
+	padding: 0px;
 	display: inline-block;
 	/*Типографика*/
 
@@ -540,6 +542,18 @@ a {
 
 	/*Анимация*/
 }
+
+.middle-info-contact address {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-style: normal;
+	/*Оформление*/
+
+	/*Анимация*/
+}
 .middle-info-list {
 	/*Позиционирование*/
 
@@ -610,7 +624,8 @@ a {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-
+	padding-top: 35px;
+	padding-bottom: 35px;
 	/*Типографика*/
 
 	/*Оформление*/
@@ -618,7 +633,108 @@ a {
 	/*Анимация*/
 }
 
+.copyright-info {
+	/*Позиционирование*/
 
+	/*Блочная модель*/
+	display: inline-block;
+	/*Типографика*/
+	font-family: "Cuprum", "Georgia", sans-serif;
+	/*Оформление*/
+	font-size: 16px;
+	font-style: normal;
+	/*Анимация*/
+}
+
+.social-list {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	/*Типографика*/
+	list-style: none;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.social-list li {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	/*Типографика*/
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.social-list a {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #ffffff;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.develop-info,
+.mail-info {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.develop-info a,
+.mail-info a {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #ffd180;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.develop-info a:hover,
+.mail-info a:hover,
+.develop-info a:focus,
+.mail-info a:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	text-decoration: underline;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.develop-info a:active,
+.mail-info a:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	text-decoration: none;
+	color: #ee3643;
+	/*Оформление*/
+
+	/*Анимация*/
+}
 							/*FOOTER-BOTTOM-END*/
 
 					/*FOOTER-END*/
