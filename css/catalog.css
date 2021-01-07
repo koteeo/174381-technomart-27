@@ -7,14 +7,13 @@ body {
 	/*Типографика*/
 	font-family: "PT Sans", "Georgia", sans-serif;
 	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 400;
 	/*Оформление*/
 
 	/*Анимация*/
 }
 													/*GENERAL-END*/
-
-
-
 
 
 .breadcrumbs-list {
@@ -37,8 +36,108 @@ body {
 	padding-left: 15px;
 	display: inline-block;
 	/*Типографика*/
-	text-transform: uppercase;
 	/*Оформление*/
 
 	/*Анимация*/
 }
+
+												/*SECTION-CATALOG-FILTER*/
+.catalog-filter fieldset {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	border: none;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.filter-title-box {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	width: 940px;
+	height: 89px;
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #f2f6f8;
+	/*Анимация*/
+}
+
+.filter-title {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	padding-top: 32px;
+	padding-left: 30px;
+	/*Типографика*/
+	font-size: 30px;
+	font-family:"Cuprum", "Georgia", sans-serif;
+	color: #32425c;
+	font-weight: 400;
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.filter-description {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	width: 220px;
+	height: 38px;
+	display: inline-block;
+	line-height: 38px;
+	/*Типографика*/
+	/*Оформление*/
+	background-color: #f7f3ec;
+	/*Анимация*/
+}
+
+.filter-wrap-30 legend {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-family: "PT Sans", "Georgia", sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	color: #000000;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.filter-manufacturer label {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-size: 15px;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.filter-manufacturer-list,
+.power-radio-list {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	margin: 0px;
+	padding: 0px;
+
+	/*Типографика*/
+	list-style: none;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+												/*SECTION-CATALOG-FILTER-END*/
