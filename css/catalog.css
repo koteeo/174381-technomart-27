@@ -13,6 +13,18 @@ body {
 
 	/*Анимация*/
 }
+
+header {
+	/*Позициоинирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	text-transform: none;
+	/*Оформление*/
+
+	/*Анимация*/
+}
 													/*GENERAL-END*/
 
 
@@ -42,6 +54,7 @@ body {
 }
 
 												/*SECTION-CATALOG-FILTER*/
+
 .catalog-filter fieldset {
 	/*Позиционирование*/
 
@@ -58,7 +71,7 @@ body {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-
+	margin-bottom: 20px;
 	width: 940px;
 	height: 89px;
 	/*Типографика*/
@@ -72,6 +85,7 @@ body {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
+	margin: 0px;
 	padding-top: 32px;
 	padding-left: 30px;
 	/*Типографика*/
@@ -140,4 +154,89 @@ body {
 	/*Анимация*/
 }
 
+.button {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	width: 140px;
+	height: 38px;
+	/*Типографика*/
+	color: #000000;
+	font-weight: 400;
+	/*Оформление*/
+	border: 1px solid #e5e5e5;
+	background-color:#ffffff;
+	text-transform: uppercase;
+	/*Анимация*/
+}
+
+.button:hover,
+.button:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	/*Оформление*/
+	cursor: pointer;
+	border: 1px solid #bdc6ca;
+	/*Анимация*/
+}
+.button:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+ 	border: 1px solid #ee3643;
+	/*Анимация*/
+}
+
+.filter-sort-wrap {
+	/*Позиционирование*/
+	display: inline-block;
+	vertical-align: middle;
+	/*Блочная модель*/
+	width: 700px;
+	height: 38px;
+	/*Типографика*/
+	line-height: 38px;
+	/*Оформление*/
+	background-color: #f7f3ec;
+	/*Анимация*/
+}
+
+.filter-sort-wrap span {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.sort-button {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	padding: 0px;
+	/*Типографика*/
+	color: #000000;
+	font-size: 13px;
+	text-transform: uppercase;  
+	/*Оформление*/
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed #ee3643;
+	background-color: rgba(0, 0, 0, 0);
+	opacity: 0.3; 
+
+	/*Анмация*/
+}
+.sort-button
 												/*SECTION-CATALOG-FILTER-END*/
