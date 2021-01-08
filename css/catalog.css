@@ -255,4 +255,113 @@ header {
 
 									/*SECTION-CATALOG-PRODUCTS*/
 
-.product
+.product-item {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	width: 220px;
+	height: 318px;
+	/*Типографика*/
+	/*оформление*/
+	border: 1px solid #e5e5e5;
+	/*Анимация*/
+}
+
+.product-item p {
+	/*Позиционирование*/
+	display: inline-block;
+	/*Блочная модель*/
+	margin: 0px;
+	padding: 0px;
+	width: 155px;
+	height: 33px;
+	/*Типографика*/
+	text-transform: none;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.product-item h3 {
+	margin: 0px;
+	padding: 0px;
+}
+.button-buy {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	width: 135px;
+	height: 38px;
+	/*Типографика*/
+	font-family: "Cuprum", "Georgia", sans-serif;
+	font-size: 14px;
+	line-height: 38px;
+	text-align: center;
+	font-weight: 400;
+	color: #ffffff;
+	
+	/*Оформление*/
+	background-color: #63a63e;
+	box-shadow: inset 0 -3px 0 #367315;
+	/*Анимация*/
+}
+
+.button-buy:hover,
+.button-buy:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #5fbb2d;
+	/*Анимация*/
+}
+.button-buy:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #518534;
+	/*Анимация*/
+}
+.button-bookmarks {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	text-align: center;
+	width: 129px;
+	height: 32px;
+	border: 3px solid #63a63e;
+	/*Типографика*/
+	line-height: 32px;
+	font-family: "Cuprum", "Georgia", sans-serif;
+	font-size: 14px;
+	color: #32425c;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.button-bookmarks:hover,
+.button-bookmarks:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	border: 3px solid #32425c;
+	/*Анимация*/
+}
+
+.button-bookmarks:active {
+	border: 3px solid #32425c;
+
+	opacity: 0.3;
+}
