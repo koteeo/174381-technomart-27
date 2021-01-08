@@ -177,7 +177,9 @@ header {
 	/*Блочная модель*/
 
 	/*Типографика*/
+
 	/*Оформление*/
+	outline: none;
 	cursor: pointer;
 	border: 1px solid #bdc6ca;
 	/*Анимация*/
@@ -208,17 +210,6 @@ header {
 	/*Анимация*/
 }
 
-.filter-sort-wrap span {
-	/*Позиционирование*/
-
-	/*Блочная модель*/
-
-	/*Типографика*/
-
-	/*Оформление*/
-
-	/*Анимация*/
-}
 
 .sort-button {
 	/*Позиционирование*/
@@ -230,13 +221,38 @@ header {
 	font-size: 13px;
 	text-transform: uppercase;  
 	/*Оформление*/
+	color: #c5c2bc;
 	outline: none;
 	border: none;
 	border-bottom: 1px dashed #ee3643;
 	background-color: rgba(0, 0, 0, 0);
-	opacity: 0.3; 
-
 	/*Анмация*/
 }
-.sort-button
-												/*SECTION-CATALOG-FILTER-END*/
+.sort-button:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #ee3643;
+	/*Оформление*/
+	border: none;
+	/*Анимация*/
+}
+.sort-button:hover {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #000000;
+	/*Оформление*/
+	border-bottom: 1px solid #ee3643;
+	/*Анимация*/
+}
+
+									/*SECTION-CATALOG-FILTER-END*/
+
+									/*SECTION-CATALOG-PRODUCTS*/
+
+.product
