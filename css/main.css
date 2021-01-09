@@ -30,18 +30,6 @@ a {
 
 																	/*GENERAL STYLE END*/
 
-																	/*HEADER*/
-header {
-	/*Позициоинирование*/
-
-	/*Блочная модель*/
-	padding-bottom: 60px;
-	/*Типографика*/
-
-	/*Оформление*/
-	background-color: #f2f6f8;
-	/*Анимация*/
-}
 																	/*TOP-HEADER*/
 
 .top-header {
@@ -612,7 +600,7 @@ header {
 	/*Типографика*/
 
 	/*Оформление*/
-
+	text-transform: none;
 	/*Анимация*/
 }
 
@@ -711,7 +699,7 @@ header {
 	padding-top: 35px;
 	padding-bottom: 35px;
 	/*Типографика*/
-
+	text-transform: none;
 	/*Оформление*/
 	background-color: #293449;
 	/*Анимация*/
