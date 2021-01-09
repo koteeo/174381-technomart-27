@@ -158,7 +158,10 @@ header {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-	width: 140px;
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	width: 138px;
 	height: 38px;
 	/*Типографика*/
 	color: #000000;
@@ -167,6 +170,7 @@ header {
 	border: 1px solid #e5e5e5;
 	background-color:#ffffff;
 	text-transform: uppercase;
+	vertical-align: middle;
 	/*Анимация*/
 }
 
@@ -255,10 +259,24 @@ header {
 
 									/*SECTION-CATALOG-PRODUCTS*/
 
+
+.catalog-products {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	width: 700px;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
 .product-item {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
+	margin-right: 20px;
+	display: inline-block;
 	width: 220px;
 	height: 318px;
 	/*Типографика*/
@@ -267,6 +285,18 @@ header {
 	/*Анимация*/
 }
 
+.product-item:hover,
+.product-item:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
+	/*Анимация*/
+}
 .product-item p {
 	/*Позиционирование*/
 	display: inline-block;
@@ -276,7 +306,9 @@ header {
 	width: 155px;
 	height: 33px;
 	/*Типографика*/
+	color: #000000;
 	text-transform: none;
+	text-align: center;
 	/*Оформление*/
 
 	/*Анимация*/
@@ -365,3 +397,192 @@ header {
 
 	opacity: 0.3;
 }
+
+.old-price {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #999999;
+	text-decoration: line-through;
+	font-weight: 700;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.discount-price {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	width: 141px;
+	height: 38px;
+	/*Типографика*/
+	line-height: 38px;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 700;
+	/*Оформление*/
+	background-color: #ee3643;
+	/*Анимация*/
+}
+
+.pagination-wrap {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.pagination-list {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	/*Типографика*/
+	
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.pagination-list li {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.pagination-list a {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	/*Типографика*/
+	color: #000000;
+	line-height: 36px;
+	text-align: center;
+	vertical-align: middle;
+
+	/*Оформление*/
+	border: 1px solid #e5e5e5;
+	/*Анимация*/
+}
+
+.pagination-list a:hover,
+.pagination-list a:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	border: 1px solid #bdc6ca;
+	/*Анимация*/
+}
+.pagination-list a:active {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	border: 1px solid #ee3643;
+	/*Анимация*/
+}
+
+.pagination-list .active-page {
+	/*Позиционирование*/
+	
+	/*Блочная модель*/
+	width: 38px;
+	height: 38px;
+	/*Типографика*/
+	color: #ffffff;
+	/*Оформление*/
+	background-color: #ee3643;
+	border: none;
+	/*Анимация*/
+}
+.pagination-list .active-page:hover,
+.pagination-list .active-page:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	border: none;
+	/*Анимация*/
+}
+
+																			/*SECTION-CATALOG-PRODUCTS-END*/
+
+																			/*SECTION-PRODUCT-INFO*/
+.product-info {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	padding-top: 70px;
+	padding-bottom: 70px;
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #f2f6f8;
+	/*Анимация*/
+}
+.product-info h2 {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	padding: 0px;
+	margin: 0px;
+	/*Типографика*/
+	font-family: "Cuprum", "Georgia", sans-serif;
+	font-size: 30px;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.info-description {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	padding: 0px;
+	margin-top: 40px;
+
+	/*Типографика*/
+	font-size: 13px;
+	text-transform: none;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+
+
+																			/*SECTION-PRODUCT-INFO-END*/
