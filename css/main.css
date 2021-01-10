@@ -31,11 +31,15 @@ a {
 																	/*GENERAL STYLE END*/
 
 																	/*TOP-HEADER*/
-
+.main-header {
+	background-color: #293449;
+}
 .top-header {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
+	width: 940px;
+	margin: 0px auto;
 
 	/*Типографика*/
 	font-family: "Cuprum", "Georgia", sans-serif;
@@ -50,7 +54,7 @@ a {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-
+	margin-left: -4px;
 	/*Типографика*/
 	color: #ffffff;
 	/*Оформление*/
@@ -104,7 +108,7 @@ a {
 .shopping-cart {
 	/*Позиционирование*/
 	vertical-align: baseline;
-	margin-left: -4px;
+	margin-left: -5px;
 	/*Блочная модель*/
 	width: 150px; 
 	height: 42px;
@@ -120,6 +124,7 @@ a {
 	/*Позиционирование*/
 	vertical-align: baseline;
 	/*Блочная модель*/
+	margin-left:-5px;
 	display: inline-block;
 	width: 270px;
 	height: 42px;
@@ -419,6 +424,11 @@ a {
 																	
 											/*HEADER-NAV*/
 
+.main-nav {
+	width: 940px;
+	margin: 0px auto;
+}
+
 .nav-list {
 	/*Позиционирование*/
 
@@ -436,8 +446,8 @@ a {
 	/*Позиционирование*/
 	
 	/*Блочная модель*/
-	padding-right: 2%;
-	padding-left: 2%;
+	padding-right: 3.6%;
+	padding-left: 3.6%;
 	margin-left: -4px;
 	display: inline-block;
 	/*Типографика*/
